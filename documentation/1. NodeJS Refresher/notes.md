@@ -16,4 +16,12 @@ Express
 - is a framework that sits on top of node and use the HTTP module to make building servers.
 - used middlewate to modify and inspect the incoming request.
 
+Installing nodemon
+1. npm i -g nodemon
+2. enabling execution policy
+- run as admin a powershell
+- type this command: [WIN only] => 'Set-ExecutionPolicy Unrestricted'
+- run your server now as 'nodemon server.js'
+- success if you can now see server logs
+
 
