@@ -1,0 +1,31 @@
+{
+    "GET /lions":{
+        "desc": "returns all lions",
+        "response": "200 application/json",
+        "data": [{},{},{}]
+    },
+
+    "GET /lions/:id":{
+        "desc":"returns all lions represented by its id",
+        "response": "200 application/json",
+        "data":{}
+    },
+
+    "POST /lions":{
+        "desc": "creates and returns a new lion using the posted object as the lion",
+        "response": "201 application/json",
+        "data":{}
+    },
+
+    "PUT /lions/:id":{
+        "desc": "updates and returns the matching lion with the posted update object",
+        "response": "200 application/json",
+        "data":{}
+    },
+
+    "DELETE lions/:id":{
+        "desc": "deletes and returns the matching lion",
+        "response": "200 application/json",
+        "data": {}
+    }
+}

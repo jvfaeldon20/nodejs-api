@@ -25,3 +25,15 @@ Installing nodemon
 - success if you can now see server logs
 
 
+RESTful
+- should be stateless
+- it use HTTP verbs explicitly
+- expose a directory like a url pattern for routes
+- transfer JSON and XML
+
+
+lodash
+- Lodash is a JavaScript library that helps programmers write more concise and maintainable JavaScript
+- Why you should use Lodash? 
+    - it is very useful when you handle nested array or objects
+    - by using functions supported by lodash, you can chain the lodash functions so you can perform complicated array or objects manipulations easily.
